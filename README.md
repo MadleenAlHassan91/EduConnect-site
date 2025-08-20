@@ -22,7 +22,7 @@
       margin-top: 40px;
     }
     .logo img {
-      height: 200px; /* حجم كبير */
+      height: 400px; /* حجم كبير */
     }
     .links {
       margin-top: 30px;
