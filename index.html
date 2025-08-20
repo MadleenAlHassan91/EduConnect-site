@@ -3,34 +3,58 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>EduConnect - الرئيسية</title>
+  <title>EduConnect</title>
   <style>
     body {
       font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      padding: 0;
       background: #f9f9f9;
-      color: #333;
-      line-height: 1.8;
       text-align: center;
-      margin: 50px;
+      color: #333;
     }
-    h1 {
-      color: #007BFF;
+    header {
+      background: #007BFF;
+      color: white;
+      padding: 15px;
     }
-    a {
-      display: block;
+    .logo {
+      margin-top: 40px;
+    }
+    .logo img {
+      height: 200px; /* حجم كبير */
+    }
+    .links {
+      margin-top: 30px;
+    }
+    .links a {
+      display: inline-block;
       margin: 10px;
+      padding: 12px 25px;
+      background: #007BFF;
+      color: white;
       text-decoration: none;
-      color: #007BFF;
-      font-weight: bold;
+      border-radius: 6px;
+      font-size: 18px;
+    }
+    .links a:hover {
+      background: #0056b3;
     }
   </style>
 </head>
 <body>
-  <h1>مرحبًا بك في EduConnect 🌐</h1>
-  <p>اختر الصفحة التي تريد زيارتها:</p>
+  <header>
+    <h1>مرحباً بك في EduConnect</h1>
+  </header>
 
-  <a href="privacy.html">سياسة الخصوصية</a>
-  <a href="terms.html">الشروط والأحكام</a>
-  <a href="about.html">عن الموقع</a>
+  <div class="logo">
+    <img src="logo.png" alt="EduConnect Logo">
+  </div>
+
+  <div class="links">
+    <a href="privacy.html">سياسة الخصوصية</a>
+    <a href="terms.html">الشروط والأحكام</a>
+    <a href="about.html">عن الموقع</a>
+  </div>
 </body>
 </html>
