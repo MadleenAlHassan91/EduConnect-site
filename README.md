@@ -51,7 +51,7 @@
   </header>
 
   <div class="logo">
-    <img src="logo.png" alt="EduConnect Logo">
+    <img src="EduConnect.png" alt="EduConnect Logo">
   </div>
 
   <div class="links">
@@ -59,5 +59,7 @@
     <a href="terms.html">الشروط والأحكام</a>
     <a href="about.html">عن الموقع</a>
   </div>
+   <h1>للتواصل والاستفسار :0797130110</h1>
+    <h1>educonnectP_2025</h1>
 </body>
 </html>
