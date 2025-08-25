@@ -16,16 +16,26 @@
     header {
       background: #007BFF;
       color: white;
-      padding: 15px;
+      padding: 20px;
+    }
+    header h1 {
+      margin: 10px 0;
+      font-size: 28px;
+    }
+    header h2 {
+      margin: 0;
+      font-size: 20px;
+      font-weight: normal;
     }
     .logo {
-      margin-top: 40px;
+      margin: 40px auto;
     }
     .logo img {
-      height: 400px; /* حجم كبير */
+      max-width: 100%;
+      height: auto; /* يضبط تلقائيًا */
     }
     .links {
-      margin-top: 30px;
+      margin: 30px 0;
     }
     .links a {
       display: inline-block;
@@ -36,18 +46,24 @@
       text-decoration: none;
       border-radius: 6px;
       font-size: 18px;
+      transition: background 0.3s;
     }
     .links a:hover {
       background: #0056b3;
+    }
+    footer {
+      margin-top: 40px;
+      padding: 15px;
+      background: #f1f1f1;
+      font-size: 16px;
+      color: #555;
     }
   </style>
 </head>
 <body>
   <header>
     <h1>مرحباً بك في EduConnect</h1>
-  </header>
-    <header>
-    <h1>Madleen Al-Hassan</h1>
+    <h2>Madleen Al-Hassan</h2>
   </header>
 
   <div class="logo">
@@ -59,7 +75,10 @@
     <a href="terms.html">الشروط والأحكام</a>
     <a href="about.html">عن الموقع</a>
   </div>
-   <h1>للتواصل والاستفسار :0797130110</h1>
-    <h1>educonnectP_2025</h1>
+
+  <footer>
+    <p>للتواصل والاستفسار: <strong>0797130110</strong></p>
+    <p>اسم المستخدم: <strong>educonnectP_2025</strong></p>
+  </footer>
 </body>
 </html>
